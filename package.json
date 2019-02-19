@@ -1,0 +1,38 @@
+{
+  "name": "@remark/cardinal",
+  "version": "1.0.2",
+  "description": "",
+  "main": "lib/index.js",
+  "bin": {
+    "remark-cardinal": "lib/index.js"
+  },
+  "scripts": {
+    "prepublishOnly": "cp -r src/ lib/",
+    "format": "node src/index.js format"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remarksoftware/cardinal.git"
+  },
+  "author": "Gravic, Inc.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/remarksoftware/cardinal/issues"
+  },
+  "homepage": "https://github.com/remarksoftware/cardinal#readme",
+  "files": [
+    "lib/"
+  ],
+  "dependencies": {
+    "cross-spawn": "^6.0.5",
+    "glob": "^7.1.3",
+    "jest": "^23.6.0",
+    "prettier": "^1.16.1",
+    "read-pkg-up": "^4.0.0",
+    "ts-jest": "^23.10.5",
+    "typescript": "^3.0.1",
+    "which": "^1.3.1",
+    "yargs-parser": "^11.1.1"
+  },
+  "devDependencies": {}
+}
