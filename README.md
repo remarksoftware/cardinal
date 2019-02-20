@@ -8,17 +8,11 @@
 
 ## Usage
 
-To use Cardinal, first update your `package.json`:
+First you need to install Cardinal:
 
-```diff json
-{
-  "devDependencies": {
-+    "@remark/cardinal": "1.0.2"
-  }
-}
+```sh
+npm i -D @remark/cardinal
 ```
-
-Then, run [`bootstrap.sh`](../../bootstrap.sh) to install it.
 
 Once that finishes, you can configure your desired scripts:
 
