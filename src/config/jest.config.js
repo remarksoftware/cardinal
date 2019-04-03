@@ -1,11 +1,9 @@
 const jestConfig = {
+  preset: 'ts-jest',
   coverageDirectory: '<rootDir>/coverage',
   moduleFileExtensions: ['js', 'ts', 'tsx'],
   testRegex: '/__tests__/.*\\.(ts|tsx)$',
-  testPathIgnorePatterns: ['/node_modules/', '<rootDir>/lib/'],
-  transform: {
-    '^.+\\.(ts|tsx)$': '<rootDir>/node_modules/ts-jest/preprocessor.js'
-  }
+  testPathIgnorePatterns: ['/node_modules/', '<rootDir>/lib/']
 };
 
 module.exports = jestConfig;
