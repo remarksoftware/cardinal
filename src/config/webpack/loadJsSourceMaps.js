@@ -1,7 +1,7 @@
 const webpackMerge = require('webpack-merge');
 
-const sourceMapLoader = () => webpackConfig =>
-  webpackMerge(webpackConfig, {
+const sourceMapLoader = () => config =>
+  webpackMerge(config, {
     module: {
       rules: [
         {

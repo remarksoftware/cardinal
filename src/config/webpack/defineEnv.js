@@ -1,8 +1,8 @@
 const webpack = require('webpack');
 const webpackMerge = require('webpack-merge');
 
-const defineEnv = (nodeEnv, additionalDefinitions) => webpackConfig =>
-  webpackMerge(webpackConfig, {
+const defineEnv = (nodeEnv, additionalDefinitions) => config =>
+  webpackMerge(config, {
     plugins: [
       new webpack.DefinePlugin({
         ...(additionalDefinitions || {}),
