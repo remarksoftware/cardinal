@@ -26,6 +26,16 @@ Once that finishes, you can configure your desired scripts:
 
 ## Scripts
 
+### build
+
+`build` builds you code.
+
+Currently only supports [TypeScript] (via the `--typescript` flag).
+
+#### Options
+
+- `--typescript [<tsc_flag>...]` - Builds your code using the [TypeScript] compiler. May optionally take any number of [TypeScript compiler options](https://www.typescriptlang.org/docs/handbook/compiler-options.html).
+
 ### format
 
 `format` formats your code using [Prettier].
@@ -36,4 +46,5 @@ Once that finishes, you can configure your desired scripts:
 - `--ignore-path <path>` - Path to a file containing patterns that describe files to ignore. By default, Cardinal respects the project's `.gitignore`.
 - `--no-write` - Disables Prettier's `--write` option.
 
+[typescript]: https://www.typescriptlang.org/index.html
 [prettier]: https://prettier.io/
