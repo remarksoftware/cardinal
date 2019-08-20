@@ -1,5 +1,5 @@
 module.exports = {
+  compileTypeScript: require('./compileTypeScript'),
   defineEnv: require('./defineEnv'),
-  loadJsSourceMaps: require('./loadJsSourceMaps'),
-  typescript: require('./typescript')
+  loadJsSourceMaps: require('./loadJsSourceMaps')
 };

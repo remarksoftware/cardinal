@@ -1,7 +1,11 @@
 const webpackMerge = require('webpack-merge');
 const ForkTsCheckerWebpackPlugin = require('fork-ts-checker-webpack-plugin');
 
-const typescript = options => config =>
+const compileTypeScript = ({
+  hotReload,
+  forkTypeChecking,
+  compilerOptions
+}) => config =>
   webpackMerge(config, {
     resolve: {
       extensions: ['.ts', '.tsx', '.js']
@@ -12,11 +16,12 @@ const typescript = options => config =>
           test: /\.tsx?$/,
           exclude: /node_modules/,
           use: [
-            options.hotReload ? 'react-hot-loader/webpack' : void 0,
+            hotReload ? 'react-hot-loader/webpack' : void 0,
             {
               loader: 'ts-loader',
               options: {
-                transpileOnly: true
+                transpileOnly: true,
+                compilerOptions
               }
             }
           ].filter(Boolean)
@@ -24,8 +29,8 @@ const typescript = options => config =>
       ]
     },
     plugins: [
-      options.forkTypeChecking ? new ForkTsCheckerWebpackPlugin() : void 0
+      forkTypeChecking ? new ForkTsCheckerWebpackPlugin() : void 0
     ].filter(Boolean)
   });
 
-module.exports = typescript;
+module.exports = compileTypeScript;
