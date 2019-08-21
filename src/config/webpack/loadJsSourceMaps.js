@@ -1,6 +1,6 @@
 const webpackMerge = require('webpack-merge');
 
-const sourceMapLoader = () => config =>
+const loadJsSourceMaps = () => config =>
   webpackMerge(config, {
     module: {
       rules: [
@@ -14,4 +14,4 @@ const sourceMapLoader = () => config =>
     }
   });
 
-module.exports = sourceMapLoader;
+module.exports = loadJsSourceMaps;
