@@ -28,7 +28,7 @@ Once that finishes, you can configure your desired scripts:
 
 ### build
 
-`build` builds you code.
+`build` builds your code.
 
 Currently only supports [TypeScript] (via the `--typescript` flag).
 
