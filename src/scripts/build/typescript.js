@@ -17,7 +17,7 @@ const config = shouldUseCardinalConfig
       '--project',
       args.includes('--react')
         ? hereRelative('../config/tsconfig.json')
-        : hereRelative('../config/tsconfig-react.json')
+        : hereRelative('../config/tsconfig-react.json'),
     ]
   : [];
 
@@ -25,7 +25,7 @@ const result = spawn.sync(
   resolveBin('typescript', { executable: 'tsc' }),
   [...config].concat(tscArgs),
   {
-    stdio: 'inherit'
+    stdio: 'inherit',
   }
 );
 

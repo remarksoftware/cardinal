@@ -34,7 +34,7 @@ function spawnScript() {
 
   const result = spawn.sync(executor, [scriptPath, ...args], {
     stdio: 'inherit',
-    env: getEnv()
+    env: getEnv(),
   });
 
   if (result.signal) {
@@ -61,7 +61,7 @@ function getEnv() {
         return acc;
       },
       {
-        [`SCRIPTS_${script.toUpperCase()}`]: true
+        [`SCRIPTS_${script.toUpperCase()}`]: true,
       }
     );
 }
