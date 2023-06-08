@@ -7,7 +7,6 @@
     "importHelpers": true,
     "module": "commonjs",
     "moduleResolution": "node",
-    "noEmitHelpers": true,
     "noEmitOnError": false,
     "noImplicitReturns": true,
     "noUnusedLocals": true,
