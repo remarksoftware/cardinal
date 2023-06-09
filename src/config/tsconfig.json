@@ -13,6 +13,7 @@
     "noUnusedParameters": true,
     "removeComments": true,
     "strict": true,
-    "stripInternal": true
+    "stripInternal": true,
+    "useDefineForClassFields": true
   }
 }
