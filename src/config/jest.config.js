@@ -3,7 +3,7 @@ const jestConfig = {
   coverageDirectory: '<rootDir>/coverage',
   moduleFileExtensions: ['js', 'ts', 'tsx'],
   testRegex: '/__tests__/.*\\.(ts|tsx)$',
-  testPathIgnorePatterns: ['/node_modules/', '<rootDir>/lib/'],
+  testPathIgnorePatterns: ['<rootDir>/lib/'],
 };
 
 module.exports = jestConfig;
