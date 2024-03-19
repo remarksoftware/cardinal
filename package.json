@@ -1,6 +1,6 @@
 {
   "name": "@remark/cardinal",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "description": "",
   "main": "lib/index.js",
   "bin": {
@@ -10,7 +10,7 @@
     "prepublishOnly": "cp -r src/ lib/",
     "postpublish": "rm -rf lib/",
     "format": "node src/index.js format",
-    "lint": "eslint ./src"
+    "lint": "node src/index.js lint ./src"
   },
   "repository": {
     "type": "git",

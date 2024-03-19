@@ -40,6 +40,10 @@ Currently only supports [TypeScript] (via the `--typescript` flag).
 
 `format` formats your code using [Prettier].
 
+### lint
+
+`lint` lints your code using [ESLint].
+
 #### Options
 
 - `--config <path>` - Specify a custom Prettier [configuration file](https://prettier.io/docs/en/configuration.html).
@@ -48,3 +52,4 @@ Currently only supports [TypeScript] (via the `--typescript` flag).
 
 [typescript]: https://www.typescriptlang.org/index.html
 [prettier]: https://prettier.io/
+[eslint]: https://eslint.org/
