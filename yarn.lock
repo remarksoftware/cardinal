@@ -864,6 +864,7 @@ __metadata:
     ts-jest: "npm:29.1.0"
     tslib: "npm:2.5.0"
     typescript: "npm:5.3.3"
+    typescript-eslint: "npm:^7.3.1"
     which: "npm:3.0.1"
     yargs-parser: "npm:21.1.1"
   bin:
@@ -1041,7 +1042,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/eslint-plugin@npm:^7.3.1":
+"@typescript-eslint/eslint-plugin@npm:7.3.1, @typescript-eslint/eslint-plugin@npm:^7.3.1":
   version: 7.3.1
   resolution: "@typescript-eslint/eslint-plugin@npm:7.3.1"
   dependencies:
@@ -1066,7 +1067,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:^7.3.1":
+"@typescript-eslint/parser@npm:7.3.1, @typescript-eslint/parser@npm:^7.3.1":
   version: 7.3.1
   resolution: "@typescript-eslint/parser@npm:7.3.1"
   dependencies:
@@ -5200,6 +5201,21 @@ __metadata:
     is-typed-array: "npm:^1.1.13"
     possible-typed-array-names: "npm:^1.0.0"
   checksum: 5cc0f79196e70a92f8f40846cfa62b3de6be51e83f73655e137116cf65e3c29a288502b18cc8faf33c943c2470a4569009e1d6da338441649a2db2f135761ad5
+  languageName: node
+  linkType: hard
+
+"typescript-eslint@npm:^7.3.1":
+  version: 7.3.1
+  resolution: "typescript-eslint@npm:7.3.1"
+  dependencies:
+    "@typescript-eslint/eslint-plugin": "npm:7.3.1"
+    "@typescript-eslint/parser": "npm:7.3.1"
+  peerDependencies:
+    eslint: ^8.56.0
+  peerDependenciesMeta:
+    typescript:
+      optional: true
+  checksum: 7d5b8e476d09f98d432197409cbdc22f133d5c66930c11ef1aae6b73f92467e415ba36a420510c16ce531b523d1150be076015ee51e8acf126a8be8b34c16d0c
   languageName: node
   linkType: hard
 
