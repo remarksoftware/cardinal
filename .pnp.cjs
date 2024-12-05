@@ -30,7 +30,7 @@ const RAW_RUNTIME_STATE =
           ["@types/jest", "npm:29.5.7"],\
           ["@typescript-eslint/eslint-plugin", "virtual:dd52df2e750b98cbb1d742e7ae5ec8a9fcda1cac2862c28b80065d9e603af7966ddc871f8c84bd96fb723aca4177b64758b50a213c3a3caa99f90d7f115f1f78#npm:7.3.1"],\
           ["@typescript-eslint/parser", "virtual:dd52df2e750b98cbb1d742e7ae5ec8a9fcda1cac2862c28b80065d9e603af7966ddc871f8c84bd96fb723aca4177b64758b50a213c3a3caa99f90d7f115f1f78#npm:7.3.1"],\
-          ["cross-spawn", "npm:7.0.3"],\
+          ["cross-spawn", "npm:7.0.6"],\
           ["eslint", "npm:8.57.0"],\
           ["eslint-config-prettier", "virtual:dd52df2e750b98cbb1d742e7ae5ec8a9fcda1cac2862c28b80065d9e603af7966ddc871f8c84bd96fb723aca4177b64758b50a213c3a3caa99f90d7f115f1f78#npm:9.1.0"],\
           ["eslint-plugin-import", "virtual:dd52df2e750b98cbb1d742e7ae5ec8a9fcda1cac2862c28b80065d9e603af7966ddc871f8c84bd96fb723aca4177b64758b50a213c3a3caa99f90d7f115f1f78#npm:2.29.1"],\
@@ -1358,7 +1358,7 @@ const RAW_RUNTIME_STATE =
           ["@types/jest", "npm:29.5.7"],\
           ["@typescript-eslint/eslint-plugin", "virtual:dd52df2e750b98cbb1d742e7ae5ec8a9fcda1cac2862c28b80065d9e603af7966ddc871f8c84bd96fb723aca4177b64758b50a213c3a3caa99f90d7f115f1f78#npm:7.3.1"],\
           ["@typescript-eslint/parser", "virtual:dd52df2e750b98cbb1d742e7ae5ec8a9fcda1cac2862c28b80065d9e603af7966ddc871f8c84bd96fb723aca4177b64758b50a213c3a3caa99f90d7f115f1f78#npm:7.3.1"],\
-          ["cross-spawn", "npm:7.0.3"],\
+          ["cross-spawn", "npm:7.0.6"],\
           ["eslint", "npm:8.57.0"],\
           ["eslint-config-prettier", "virtual:dd52df2e750b98cbb1d742e7ae5ec8a9fcda1cac2862c28b80065d9e603af7966ddc871f8c84bd96fb723aca4177b64758b50a213c3a3caa99f90d7f115f1f78#npm:9.1.0"],\
           ["eslint-plugin-import", "virtual:dd52df2e750b98cbb1d742e7ae5ec8a9fcda1cac2862c28b80065d9e603af7966ddc871f8c84bd96fb723aca4177b64758b50a213c3a3caa99f90d7f115f1f78#npm:2.29.1"],\
@@ -2510,10 +2510,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["cross-spawn", [\
-      ["npm:7.0.3", {\
-        "packageLocation": "../Users/sdavison/AppData/Local/Yarn/Berry/cache/cross-spawn-npm-7.0.3-e4ff3e65b3-10c0.zip/node_modules/cross-spawn/",\
+      ["npm:7.0.6", {\
+        "packageLocation": "../Users/sdavison/AppData/Local/Yarn/Berry/cache/cross-spawn-npm-7.0.6-264bddf921-10c0.zip/node_modules/cross-spawn/",\
         "packageDependencies": [\
-          ["cross-spawn", "npm:7.0.3"],\
+          ["cross-spawn", "npm:7.0.6"],\
           ["path-key", "npm:3.1.1"],\
           ["shebang-command", "npm:2.0.0"],\
           ["which", "npm:2.0.2"]\
@@ -2957,7 +2957,7 @@ const RAW_RUNTIME_STATE =
           ["@ungap/structured-clone", "npm:1.2.0"],\
           ["ajv", "npm:6.12.6"],\
           ["chalk", "npm:4.1.2"],\
-          ["cross-spawn", "npm:7.0.3"],\
+          ["cross-spawn", "npm:7.0.6"],\
           ["debug", "virtual:1ff4b5f90832ba0a9c93ba1223af226e44ba70c1126a3740d93562b97bc36544e896a5e95908196f7458713e6a6089a34bfc67362fc6df7fa093bd06c878be47#npm:4.3.4"],\
           ["doctrine", "npm:3.0.0"],\
           ["escape-string-regexp", "npm:4.0.0"],\
@@ -3189,7 +3189,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../Users/sdavison/AppData/Local/Yarn/Berry/cache/execa-npm-5.1.1-191347acf5-10c0.zip/node_modules/execa/",\
         "packageDependencies": [\
           ["execa", "npm:5.1.1"],\
-          ["cross-spawn", "npm:7.0.3"],\
+          ["cross-spawn", "npm:7.0.6"],\
           ["get-stream", "npm:6.0.1"],\
           ["human-signals", "npm:2.1.0"],\
           ["is-stream", "npm:2.0.1"],\
@@ -3371,7 +3371,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../Users/sdavison/AppData/Local/Yarn/Berry/cache/foreground-child-npm-3.1.1-77e78ed774-10c0.zip/node_modules/foreground-child/",\
         "packageDependencies": [\
           ["foreground-child", "npm:3.1.1"],\
-          ["cross-spawn", "npm:7.0.3"],\
+          ["cross-spawn", "npm:7.0.6"],\
           ["signal-exit", "npm:4.1.0"]\
         ],\
         "linkType": "HARD"\
